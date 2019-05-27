@@ -11,7 +11,7 @@ class DynamicStepper extends Component {
         activeStep: 0,
         steps: [],
         stepContents: [],
-        step3Hidden: true
+        step3Hidden: false
     };
 
     componentDidMount() {
